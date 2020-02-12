@@ -3,7 +3,7 @@ package Easy;
 /**
  * @author Weichen Wang
  * @date 2020/2/12 - 7:31 PM
- * @description: <p>
+ * @description: Problem #1
  * </>
  * Question: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
  * You may assume that each input would have exactly one solution, and you may not use the same element twice
