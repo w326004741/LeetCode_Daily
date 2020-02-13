@@ -32,14 +32,15 @@ public class Binary_Sort {
     }
 
     public static void main(String[] args) {
-        int[] binary = {3, 7, 1, 13, 5, 2, 4, 6, 9};
-//        int[] binary = {1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14};
-        // 先排序
-        Arrays.sort(binary);
-        // 在调用Binary Sort
+        /**1. 数组已排序*/
+        int[] binary = {1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14};
         System.out.println(binarySort(binary, 13));
 
-        System.out.println(Arrays.toString(binary));
 
+        /**2. 数组为乱序 则必须 先排序 再调用binarySort*/
+//        int[] binary = {3, 7, 1, 13, 5, 2, 4, 6, 9};
+//        Arrays.sort(binary);     // 先排序
+//        System.out.println(binarySort(binary, 13));
+//        System.out.println(Arrays.toString(binary));
     }
 }
