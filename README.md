@@ -7,4 +7,6 @@
 ### Algorithms:
 #### 1. [Binary Sort](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Algorithms/Binary_Sort.java)
 #### 2. [Bubble Sort](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Algorithms/Bubble_Sort.java)
+#### 3. [A*](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Algorithms/A_Star)
+
 
