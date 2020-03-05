@@ -17,9 +17,9 @@ public class SquareArray {
         /**For loop output*/
 //        System.out.println("{ ");                                   // 最外的大括号
 //        for (int i = 0; i < array.length; i++) { // i 为3组数组
-//            System.out.print("  {"); // 数组的小括号
+//            System.out.printArray("  {"); // 数组的小括号
 //            for (int j = 0; j < array[i].length; j++) { // j 为数组内的个数的index
-//                System.out.print(array[i][j] + " ");
+//                System.out.printArray(array[i][j] + " ");
 //            }
 //            System.out.println("},");                               // 数组的小括号
 //        }
