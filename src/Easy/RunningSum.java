@@ -25,12 +25,9 @@ public class RunningSum {
     public int[] runningSum(int[] nums) {
 
         for (int i = 1; i < nums.length; i++) {
-            nums[i] += nums[i - 1];
+            nums[i] += nums[i - 1];   //找规律
         }
 
-        for (Integer s : nums) {
-            System.out.println(s.toString());
-        }
         return nums;
     }
 
