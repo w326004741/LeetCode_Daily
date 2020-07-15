@@ -17,7 +17,9 @@ public class Bubble_Sort {
         int x, y, temp = 0;
 
         for (x = 0; x < arr.length; x++) { // 整体排序次数 从头到尾才算一次
+
             boolean swapped = false;
+
             for (y = 0; y < arr.length - 1; y++) { //从头开始，两两对比，前者>后者则交换，否则不交换
                 if (arr[y] > arr[y + 1]) {
                     // swap arr[y] and arr[y+1]

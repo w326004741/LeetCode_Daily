@@ -27,7 +27,7 @@ public class Quick_Sort {
             if (left == end) {
                 break;
             }
-            // 从left->right找，只要比p大的,如果arr[left] <= partition,则指针移动 继续找。
+            // 从left->right找，只要比p大的,如果arr[left] <= partition,则指针移动 继续找
             while (left < end && arr[left] <= partition) {
                 left++;
             }
