@@ -4,6 +4,9 @@
 #### 1. [Two Sum](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/Two_Sum.java)
 #### 20. [Valid_Parentheses](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/Valid_Parentheses.java)
 #### 289. [Conway's Game of Life](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Medium/Game_of_Life.java)
+#### 1480. [Running Sum of 1d Array](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/RunningSum.java)
+
+
 
 ### Algorithms:
 #### 1. [Binary Sort](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Algorithms/Binary_Sort.java)
