@@ -8,6 +8,8 @@
 #### 1512. [Number of Good Pairs](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/NumOfGoodPairs.java)
 #### 1470. [Shuffle the Array](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/ShuffleArray.java)
 #### 1471. [Reverse Left Words](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/ReverseWords.java)
+#### 1431. [Kids With the Greatest Number of Candies](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/KidsWithCandies.java)
+
 
 
 
