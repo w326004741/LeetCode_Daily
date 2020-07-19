@@ -10,7 +10,7 @@
 #### 1471. [Reverse Left Words](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/ReverseWords.java)
 #### 1431. [Kids with the greatest number of candies](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/KidsWithCandies.java)
 #### 1108. [Defanging an IP Address](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/DefangIPAddress.java)
-
+#### 1342. [Number of Steps to Reduce a Number to Zero](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/NumberofStep.java)
 
 
 
