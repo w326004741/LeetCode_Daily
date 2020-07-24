@@ -13,6 +13,8 @@
 #### 1342. [Number of Steps to Reduce a Number to Zero](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/NumberofStep.java)
 #### 771. [Jewels and Stones](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/JewelsNStone.java)
 #### 1486. [XOR Operation in an Array](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/XOROperation.java)
+#### 1313. [Decompress Run-Length Encoded List](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/DecompressRLElist.java)
+
 
 
 
