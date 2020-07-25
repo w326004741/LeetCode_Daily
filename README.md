@@ -14,17 +14,18 @@
 #### 771. [Jewels and Stones](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/JewelsNStone.java)
 #### 1486. [XOR Operation in an Array](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/XOROperation.java)
 #### 1313. [Decompress Run-Length Encoded List](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/DecompressRLElist.java)
+#### 5456. [Count Odd Numbers in an Interval Range](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/CountOdds.java)
 
 
 
 
-### Algorithms:
+### algorithms:
 #### 1. [Binary Sort](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Algorithms/Binary_Sort.java)
 #### 2. [Bubble Sort](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Algorithms/Bubble_Sort.java)
 #### 2. [Quick Sort](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Algorithms/Quick_Sort.java)
 #### 3. [A*](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Algorithms/A_Star)
 
-### Others:
+### others:
 #### 1. [Stack_Data_Structure](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Others/Stack_Data_Structure.java)
 #### 2. [Square Array](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Others/SquareArray.java)
 
