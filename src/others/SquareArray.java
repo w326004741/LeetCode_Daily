@@ -1,4 +1,4 @@
-package Others;
+package others;
 
 /**
  * @author Weichen Wang

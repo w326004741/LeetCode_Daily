@@ -1,7 +1,4 @@
-package Medium;
-
-import java.awt.*;
-import java.sql.SQLOutput;
+package medium;
 
 /**
  * @author Weichen Wang

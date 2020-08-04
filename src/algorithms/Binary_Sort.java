@@ -1,7 +1,4 @@
-package Algorithms;
-
-import java.util.Arrays;
-import java.util.Collections;
+package algorithms;
 
 /**
  * @author Weichen Wang

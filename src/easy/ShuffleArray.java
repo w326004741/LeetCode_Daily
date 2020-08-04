@@ -1,4 +1,4 @@
-package Easy;
+package easy;
 
 /**
  * @author Weichen Wang

@@ -1,4 +1,4 @@
-package Easy;
+package easy;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -43,7 +43,7 @@ public class JewelsNStone {
         }
         return count;
     }
-// 使用 ArrayList的 Solution, Runtime更慢，内存使用差不多。
+// 使用 ArrayList的 CountOdds, Runtime更慢，内存使用差不多。
 //    int count = 0;
 //    List<Character> jewelList = new ArrayList<>();
 //

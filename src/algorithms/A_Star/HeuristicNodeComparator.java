@@ -1,4 +1,4 @@
-package Algorithms.A_Star;
+package algorithms.A_Star;
 
 import java.util.Comparator;
 public class HeuristicNodeComparator implements Comparator<Node>{

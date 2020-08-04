@@ -1,4 +1,4 @@
-package Algorithms.A_Star;
+package algorithms.A_Star;
 
 import java.util.ArrayList;
 import java.util.Collections;

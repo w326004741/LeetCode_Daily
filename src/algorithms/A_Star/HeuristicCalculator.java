@@ -1,4 +1,4 @@
-package Algorithms.A_Star;
+package algorithms.A_Star;
 
 public class HeuristicCalculator {
 	/* The heuristic function computes a score by biasing the actual distance using the levels of terrain
