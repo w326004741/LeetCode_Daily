@@ -16,6 +16,8 @@
 #### 1313. [Decompress Run-Length Encoded List](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/DecompressRLElist.java)
 #### 5456. [Count Odd Numbers in an Interval Range](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/CountOdds.java)
 #### 1528. [Shuffle String](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/ShuffleString.java)
+#### 1365. [Smaller Numbers Than Current](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/SmallerNumbersThanCurrent.java)
+
 
 
 

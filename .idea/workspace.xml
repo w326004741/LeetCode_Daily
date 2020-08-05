@@ -4,7 +4,8 @@
     <list default="true" id="adbde74b-fca1-462a-acf1-6b7a8cb80777" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/ShuffleString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/ShuffleString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/ShuffleString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/ShuffleString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,27 +14,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetCode_Daily$SmallNumber.ic" NAME="SmallNumber Coverage Results" MODIFIED="1596616981040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>easy.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/DeleteMidNode.java">
+        <entry file="file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/ShuffleString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="368">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -42,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="231">
-                <caret line="17" column="107" selection-start-line="17" selection-start-column="107" selection-end-line="17" selection-end-column="107" />
+              <first_editor relative-caret-position="271">
+                <caret line="18" column="133" selection-start-line="18" selection-start-column="133" selection-end-line="18" selection-end-column="133" />
               </first_editor>
               <second_editor />
             </state>
@@ -99,6 +91,8 @@
         <option value="$PROJECT_DIR$/src/easy/CountOdds.java" />
         <option value="$PROJECT_DIR$/src/easy/DeleteMidNode.java" />
         <option value="$PROJECT_DIR$/src/easy/ShuffleString.java" />
+        <option value="$PROJECT_DIR$/src/easy/SmallNumber.java" />
+        <option value="$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -110,7 +104,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
+    <option name="x" value="654" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="985" />
@@ -144,6 +138,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,13 +161,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596550673463" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596618217214" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -198,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShuffleString">
+  <component name="RunManager" selected="Application.SmallerNumbersThanCurrent">
     <configuration name="CountOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.CountOdds" />
       <module name="LeetCode_Daily" />
@@ -251,8 +245,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XOROperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.XOROperation" />
+    <configuration name="SmallerNumbersThanCurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.SmallerNumbersThanCurrent" />
       <module name="LeetCode_Daily" />
       <extension name="coverage">
         <pattern>
@@ -265,19 +259,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.XOROperation" />
       <item itemvalue="Application.SmallerNumbersThanCurrent" />
       <item itemvalue="Application.DecompressRLElist" />
       <item itemvalue="Application.CountOdds" />
       <item itemvalue="Application.ShuffleString" />
+      <item itemvalue="Application.SmallerNumbersThanCurrent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SmallerNumbersThanCurrent" />
+        <item itemvalue="Application.SmallerNumbersThanCurrent" />
         <item itemvalue="Application.ShuffleString" />
         <item itemvalue="Application.CountOdds" />
         <item itemvalue="Application.DecompressRLElist" />
-        <item itemvalue="Application.SmallerNumbersThanCurrent" />
-        <item itemvalue="Application.XOROperation" />
       </list>
     </recent_temporary>
   </component>
@@ -313,15 +307,16 @@
       <workItem from="1595684487927" duration="13998000" />
       <workItem from="1595846073147" duration="1184000" />
       <workItem from="1596268759152" duration="2490000" />
-      <workItem from="1596537980082" duration="3844000" />
+      <workItem from="1596537980082" duration="3949000" />
+      <workItem from="1596615289521" duration="3000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131111000" />
+    <option name="totallyTimeSpent" value="134216000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="23" width="1680" height="985" extended-state="0" />
+    <frame x="654" y="23" width="1680" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5013928" side_tool="true" weight="0.20344289" />
@@ -330,7 +325,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" x="0" y="23" width="960" height="1127" id="Project" order="6" sideWeight="0.49860725" visible="true" weight="0.15953545" />
+      <window_info active="true" content_ui="combo" x="0" y="23" width="960" height="1127" id="Project" order="6" sideWeight="0.49860725" visible="true" weight="0.16117217" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32698768" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921754" weight="0.1724524" />
@@ -344,6 +339,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007825" side_tool="true" weight="0.21956521" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32474804" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32922733" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -474,30 +470,6 @@
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/easy/DecompressRLElist.java</url>
           <line>37</line>
           <properties />
@@ -538,6 +510,24 @@
           <line>32</line>
           <properties />
           <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="114" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -717,16 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///var/folders/h0/fkv62cnn0js1rwy87j15_pp40000gp/T/leetcode/editor/cn/[1]两数之和.java" />
     <entry file="file:///var/folders/h0/fkv62cnn0js1rwy87j15_pp40000gp/T/leetcode/editor/cn/[1389]Create Target Array in the Given Order.md" />
     <entry file="file:///var/folders/h0/fkv62cnn0js1rwy87j15_pp40000gp/T/leetcode/editor/cn/[1389]Create Target Array in the Given Order.java" />
@@ -737,18 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/DeleteMidNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -766,6 +734,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/DeleteMidNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/ShuffleString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -773,11 +753,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="231">
-            <caret line="17" column="107" selection-start-line="17" selection-start-column="107" selection-end-line="17" selection-end-column="107" />
+          <first_editor relative-caret-position="271">
+            <caret line="18" column="133" selection-start-line="18" selection-start-column="133" selection-end-line="18" selection-end-column="133" />
           </first_editor>
           <second_editor />
         </state>
