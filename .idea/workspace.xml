@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adbde74b-fca1-462a-acf1-6b7a8cb80777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/SubstractProductAndSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/ReverseStringII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/SmallNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/SmallerNumbersThanCurrent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/ReverseWords.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +24,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/SubstractProductAndSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="384">
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/easy/ReverseStringII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -36,9 +44,27 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="304">
-                <caret line="19" column="154" selection-start-line="19" selection-start-column="154" selection-end-line="19" selection-end-column="154" />
+                <caret line="19" column="111" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="111" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/easy/NumberofStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -88,13 +114,14 @@
         <option value="/var/folders/h0/fkv62cnn0js1rwy87j15_pp40000gp/T/leetcode/editor/cn/[1313]Decompress Run-Length Encoded List.java" />
         <option value="$PROJECT_DIR$/src/Easy/TargetArray.java" />
         <option value="$PROJECT_DIR$/src/easy/TargetArray.java" />
-        <option value="$PROJECT_DIR$/src/easy/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/CountOdds.java" />
         <option value="$PROJECT_DIR$/src/easy/DeleteMidNode.java" />
         <option value="$PROJECT_DIR$/src/easy/ShuffleString.java" />
         <option value="$PROJECT_DIR$/src/easy/SmallNumber.java" />
         <option value="$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java" />
         <option value="$PROJECT_DIR$/src/easy/SubstractProductAndSum.java" />
+        <option value="$PROJECT_DIR$/src/easy/Solution.java" />
+        <option value="$PROJECT_DIR$/src/easy/ReverseStringII.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -106,8 +133,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
-    <option name="y" value="92" />
+    <option name="x" value="277" />
+    <option name="y" value="172" />
     <option name="width" value="1680" />
     <option name="height" value="985" />
   </component>
@@ -139,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,14 +189,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596705603288" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596723998349" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -194,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubstractProductAndSum">
+  <component name="RunManager" selected="Application.ReverseStringII">
     <configuration name="CountOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.CountOdds" />
       <module name="LeetCode_Daily" />
@@ -208,8 +235,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecompressRLElist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.DecompressRLElist" />
+    <configuration name="ReverseStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.ReverseStringII" />
       <module name="LeetCode_Daily" />
       <extension name="coverage">
         <pattern>
@@ -274,19 +301,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DecompressRLElist" />
       <item itemvalue="Application.CountOdds" />
       <item itemvalue="Application.ShuffleString" />
       <item itemvalue="Application.SmallerNumbersThanCurrent" />
       <item itemvalue="Application.SubstractProductAndSum" />
+      <item itemvalue="Application.ReverseStringII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseStringII" />
         <item itemvalue="Application.SubstractProductAndSum" />
         <item itemvalue="Application.SmallerNumbersThanCurrent" />
         <item itemvalue="Application.SmallerNumbersThanCurrent" />
         <item itemvalue="Application.ShuffleString" />
-        <item itemvalue="Application.CountOdds" />
       </list>
     </recent_temporary>
   </component>
@@ -324,15 +351,16 @@
       <workItem from="1596268759152" duration="2490000" />
       <workItem from="1596537980082" duration="3949000" />
       <workItem from="1596615289521" duration="3462000" />
-      <workItem from="1596701175990" duration="3992000" />
+      <workItem from="1596701175990" duration="4323000" />
+      <workItem from="1596710133486" duration="4254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138670000" />
+    <option name="totallyTimeSpent" value="143255000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="92" width="1680" height="985" extended-state="0" />
+    <frame x="277" y="172" width="1680" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5013928" side_tool="true" weight="0.20344289" />
@@ -341,10 +369,10 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" x="0" y="23" width="960" height="1127" id="Project" order="6" sideWeight="0.49860725" visible="true" weight="0.16320294" />
+      <window_info active="true" content_ui="combo" x="0" y="23" width="960" height="1127" id="Project" order="6" sideWeight="0.49860725" visible="true" weight="0.16503668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32698768" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921754" visible="true" weight="0.1724524" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921754" weight="0.23180291" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36506158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,24 +452,6 @@
           <line>43</line>
           <properties />
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/ReverseWords.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/ReverseWords.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/ReverseWords.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/easy/DefangIPAddress.java</url>
@@ -544,6 +554,18 @@
           <line>20</line>
           <properties />
           <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/ReverseStringII.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/ReverseStringII.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -681,24 +703,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/ReverseWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/DefangIPAddress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/NumberofStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -754,11 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,6 +772,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/SubstractProductAndSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/NumberofStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/ReverseWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/SmallerNumbersThanCurrent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -776,10 +800,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/SubstractProductAndSum.java">
+    <entry file="file://$PROJECT_DIR$/src/easy/ReverseStringII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="272">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -787,7 +811,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="304">
-            <caret line="19" column="154" selection-start-line="19" selection-start-column="154" selection-end-line="19" selection-end-column="154" />
+            <caret line="19" column="111" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="111" />
           </first_editor>
           <second_editor />
         </state>
