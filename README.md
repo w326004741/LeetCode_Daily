@@ -17,7 +17,7 @@
 #### 1528. [Shuffle String](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/ShuffleString.java)
 #### 1365. [Smaller Numbers Than Current](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/SmallerNumbersThanCurrent.java)
 #### 1281. [Subtract the Product and Sum of Digits of an Integer](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/SubstractProductAndSum.java)
-#### 541. [Reverse String II](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/ReverseStringII.java)
+#### 58. [剑指Offer-左旋转字符串II](https://github.com/w326004741/LeetCode_Daily/blob/master/src/Easy/ReverseStringII.java)
 
 
 
