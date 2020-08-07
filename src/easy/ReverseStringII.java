@@ -5,15 +5,15 @@ package easy;
  * @date 2020/8/6 - 11:35 AM
  * @description: 剑指Offer 58. Reverse String II 左旋转字符串
  * Question: 字符串的左旋转操作是把字符串前面的若干个字符转移到字符串的尾部。请定义一个函数实现字符串左旋转操作的功能。比如，输入字符串"abcdefg"和数字2，该函数将返回左旋转两位得到的结果"cdefgab"。
- *
+
  * 示例 1：
  * 输入: s = "abcdefg", k = 2
  * 输出: "cdefgab"
- *
+
  * 总结： StringBuilder: 一个可变对象，可以预分配缓冲区，往StringBuilder中新增字符时，不会创建新的临时对象
- *       普通的方法： + 运算符，可以拼接字符串，但在循环中每次都会创建新的String对象，然后扔掉旧的String对象。
- *       因为，绝大部分String都是临时对象，所以这样不但浪费内存，还影响Garbage Collection（GC）效率。
- *       这种方法实现的Runtime比 Brute-force暴力解决快，Memory Storage更少。（即双for loop实现）
+ *      普通的方法： + 运算符，可以拼接字符串，但在循环中每次都会创建新的String对象，然后扔掉旧的String对象。
+ *      因为，绝大部分String都是临时对象，所以这样不但浪费内存，还影响Garbage Collection（GC）效率。
+ *      这种方法实现的Runtime比 Brute-force暴力解决快，Memory Storage更少。（即双for loop实现）
  */
 public class ReverseStringII {
 
@@ -42,7 +42,7 @@ public class ReverseStringII {
     }
 
     public static void main(String[] args) {
-        String s = "abcdefg";
+        String s = "abcdefgh";
         int k = 2;
 
         ReverseStringII reverseStringII = new ReverseStringII();
