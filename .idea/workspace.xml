@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adbde74b-fca1-462a-acf1-6b7a8cb80777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/ReverseStr_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/CreateTargetArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/ReverseStringII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/ReverseStringII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/ReverseStringII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/ReverseStringII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/ReverseStr_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/ReverseStr_II.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,31 +22,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/ReverseStringII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="301">
-                <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
+              <first_editor relative-caret-position="336">
+                <caret line="21" column="135" selection-start-line="21" selection-start-column="135" selection-end-line="21" selection-end-column="135" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/ReverseStr_II.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/CreateTargetArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="635">
+              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/easy/ReverseStringII.java" />
         <option value="$PROJECT_DIR$/src/easy/ReverseStr_II.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/easy/CreateTargetArray.java" />
       </list>
     </option>
   </component>
@@ -117,8 +111,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="170" />
-    <option name="y" value="23" />
+    <option name="x" value="-1786" />
+    <option name="y" value="5" />
     <option name="width" value="1680" />
     <option name="height" value="985" />
   </component>
@@ -150,6 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,14 +168,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596797188427" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597306942112" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -205,9 +199,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseStringII">
-    <configuration name="CountOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.CountOdds" />
+  <component name="RunManager" selected="Application.CreateTargetArray">
+    <configuration name="CreateTargetArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.CreateTargetArray" />
       <module name="LeetCode_Daily" />
       <extension name="coverage">
         <pattern>
@@ -285,19 +279,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountOdds" />
       <item itemvalue="Application.ShuffleString" />
       <item itemvalue="Application.SmallerNumbersThanCurrent" />
       <item itemvalue="Application.SubstractProductAndSum" />
       <item itemvalue="Application.ReverseStringII" />
+      <item itemvalue="Application.CreateTargetArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateTargetArray" />
         <item itemvalue="Application.ReverseStringII" />
         <item itemvalue="Application.SubstractProductAndSum" />
         <item itemvalue="Application.SmallerNumbersThanCurrent" />
         <item itemvalue="Application.SmallerNumbersThanCurrent" />
-        <item itemvalue="Application.ShuffleString" />
       </list>
     </recent_temporary>
   </component>
@@ -337,15 +331,17 @@
       <workItem from="1596615289521" duration="3462000" />
       <workItem from="1596701175990" duration="4323000" />
       <workItem from="1596710133486" duration="6343000" />
-      <workItem from="1596793625014" duration="3590000" />
+      <workItem from="1596793625014" duration="4123000" />
+      <workItem from="1597304248451" duration="9000" />
+      <workItem from="1597304822219" duration="2158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148934000" />
+    <option name="totallyTimeSpent" value="151634000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="170" y="23" width="1680" height="985" extended-state="0" />
+    <frame x="-1786" y="5" width="1680" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5013928" side_tool="true" weight="0.20344289" />
@@ -354,11 +350,11 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" x="0" y="23" width="960" height="1127" id="Project" order="6" sideWeight="0.49860725" visible="true" weight="0.16687042" />
+      <window_info active="true" content_ui="combo" x="0" y="23" width="960" height="1127" id="Project" order="6" sideWeight="0.49860725" visible="true" weight="0.1705379" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32698768" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921754" weight="0.23180291" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36506158" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36506158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -781,25 +777,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/ReverseStringII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="272">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/ReverseStr_II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="208">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="301">
-            <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
+          <first_editor relative-caret-position="336">
+            <caret line="21" column="135" selection-start-line="21" selection-start-column="135" selection-end-line="21" selection-end-column="135" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/CreateTargetArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

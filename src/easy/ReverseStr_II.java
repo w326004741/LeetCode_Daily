@@ -24,6 +24,7 @@ public class ReverseStr_II {
     public String reverseStr(String s, int k) {
         // 把String转化成char数组
         char[] c = s.toCharArray();
+
         // 每2k为一组 进行reverse
         for (int i = 0; i < c.length; i += k * 2) {
             // start是即将开始reverse的位置

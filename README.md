@@ -19,6 +19,7 @@
 #### 1281. [Subtract the Product and Sum of Digits of an Integer](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/SubstractProductAndSum.java)
 #### 58. [剑指Offer-左旋转字符串II](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/ReverseStringII.java)
 #### 541. [Reverse String II](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/ReverseStr_II.java)
+#### 1389. [Create Target Array in the Given Order](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/CreateTargetArray.java)
 
 
 
