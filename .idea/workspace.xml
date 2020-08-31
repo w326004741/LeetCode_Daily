@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adbde74b-fca1-462a-acf1-6b7a8cb80777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/CreateTargetArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/BalancedStringSplit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/ReverseStr_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/ReverseStr_II.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,26 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="336">
-                <caret line="21" column="135" selection-start-line="21" selection-start-column="135" selection-end-line="21" selection-end-column="135" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/CreateTargetArray.java">
+        <entry file="file://$PROJECT_DIR$/src/easy/BalancedStringSplit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="376">
+              <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -99,8 +82,9 @@
         <option value="$PROJECT_DIR$/src/easy/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/ReverseStringII.java" />
         <option value="$PROJECT_DIR$/src/easy/ReverseStr_II.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/easy/CreateTargetArray.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/easy/BalancedStringSplit.java" />
       </list>
     </option>
   </component>
@@ -111,8 +95,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1786" />
-    <option name="y" value="5" />
+    <option name="x" value="2082" />
+    <option name="y" value="7" />
     <option name="width" value="1680" />
     <option name="height" value="985" />
   </component>
@@ -171,9 +155,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/weichenwang/LeetCode_Daily/README.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597306942112" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598870133775" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,7 +184,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateTargetArray">
+  <component name="RunManager" selected="Application.BalancedStringSplit">
+    <configuration name="BalancedStringSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.BalancedStringSplit" />
+      <module name="LeetCode_Daily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateTargetArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.CreateTargetArray" />
       <module name="LeetCode_Daily" />
@@ -215,19 +213,6 @@
     </configuration>
     <configuration name="ReverseStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.ReverseStringII" />
-      <module name="LeetCode_Daily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShuffleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.ShuffleString" />
       <module name="LeetCode_Daily" />
       <extension name="coverage">
         <pattern>
@@ -279,18 +264,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ShuffleString" />
       <item itemvalue="Application.SmallerNumbersThanCurrent" />
       <item itemvalue="Application.SubstractProductAndSum" />
       <item itemvalue="Application.ReverseStringII" />
       <item itemvalue="Application.CreateTargetArray" />
+      <item itemvalue="Application.BalancedStringSplit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BalancedStringSplit" />
         <item itemvalue="Application.CreateTargetArray" />
         <item itemvalue="Application.ReverseStringII" />
         <item itemvalue="Application.SubstractProductAndSum" />
-        <item itemvalue="Application.SmallerNumbersThanCurrent" />
         <item itemvalue="Application.SmallerNumbersThanCurrent" />
       </list>
     </recent_temporary>
@@ -333,15 +318,17 @@
       <workItem from="1596710133486" duration="6343000" />
       <workItem from="1596793625014" duration="4123000" />
       <workItem from="1597304248451" duration="9000" />
-      <workItem from="1597304822219" duration="2158000" />
+      <workItem from="1597304822219" duration="2667000" />
+      <workItem from="1598797249820" duration="1274000" />
+      <workItem from="1598869020887" duration="1338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151634000" />
+    <option name="totallyTimeSpent" value="154755000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1786" y="5" width="1680" height="985" extended-state="0" />
+    <frame x="2082" y="7" width="1680" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5013928" side_tool="true" weight="0.20344289" />
@@ -350,11 +337,11 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" x="0" y="23" width="960" height="1127" id="Project" order="6" sideWeight="0.49860725" visible="true" weight="0.1705379" />
+      <window_info content_ui="combo" x="0" y="23" width="960" height="1127" id="Project" order="6" sideWeight="0.49860725" visible="true" weight="0.17420538" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32698768" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921754" weight="0.23180291" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36506158" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36506158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -547,6 +534,30 @@
           <line>39</line>
           <properties />
           <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/BalancedStringSplit.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/BalancedStringSplit.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/BalancedStringSplit.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/BalancedStringSplit.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -789,6 +800,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/CreateTargetArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -799,13 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/CreateTargetArray.java">
+    <entry file="file://$PROJECT_DIR$/src/easy/BalancedStringSplit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="376">
+          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
         </state>
       </provider>
     </entry>
