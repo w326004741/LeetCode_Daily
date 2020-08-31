@@ -20,6 +20,7 @@
 #### 58. [剑指Offer-左旋转字符串II](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/ReverseStringII.java)
 #### 541. [Reverse String II](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/ReverseStr_II.java)
 #### 1389. [Create Target Array in the Given Order](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/CreateTargetArray.java)
+#### 1221. [Split a String in Balanced Strings](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/BalancedStringSplit.java)
 
 
 
