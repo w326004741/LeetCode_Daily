@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adbde74b-fca1-462a-acf1-6b7a8cb80777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/FindEvenNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/RangeSumBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/CountGoodTriples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/FindEvenNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/FindEvenNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/BalancedStringSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/BalancedStringSplit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,19 +67,33 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Algorithms/A_Star" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindEvenNumber">
+  <component name="RunManager" selected="Application.CountGoodTriples">
     <configuration name="BalancedStringSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.BalancedStringSplit" />
+      <module name="LeetCode_Daily" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountGoodTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.CountGoodTriples" />
       <module name="LeetCode_Daily" />
       <extension name="coverage">
         <pattern>
@@ -142,46 +157,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstractProductAndSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.SubstractProductAndSum" />
-      <module name="LeetCode_Daily" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SubstractProductAndSum" />
-      <item itemvalue="Application.ReverseStringII" />
-      <item itemvalue="Application.CreateTargetArray" />
+      <item itemvalue="Application.SmallerNumbersThanCurrent" />
       <item itemvalue="Application.BalancedStringSplit" />
+      <item itemvalue="Application.CreateTargetArray" />
+      <item itemvalue="Application.ReverseStringII" />
       <item itemvalue="Application.FindEvenNumber" />
+      <item itemvalue="Application.CountGoodTriples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountGoodTriples" />
         <item itemvalue="Application.FindEvenNumber" />
-        <item itemvalue="Application.BalancedStringSplit" />
-        <item itemvalue="Application.CreateTargetArray" />
         <item itemvalue="Application.ReverseStringII" />
-        <item itemvalue="Application.SubstractProductAndSum" />
+        <item itemvalue="Application.CreateTargetArray" />
+        <item itemvalue="Application.BalancedStringSplit" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +230,8 @@
       <workItem from="1598869020887" duration="1918000" />
       <workItem from="1599051550210" duration="1327000" />
       <workItem from="1599139435985" duration="660000" />
-      <workItem from="1599728210375" duration="1755000" />
+      <workItem from="1599728210375" duration="4972000" />
+      <workItem from="1599755260800" duration="214000" />
     </task>
     <servers />
   </component>
@@ -241,22 +243,34 @@
       <screen x="0" y="23" width="1920" height="1135" />
     </state>
     <state x="1120" y="328" width="800" height="717" key="#Intentions/0.23.1920.1135@0.23.1920.1135" timestamp="1599140510337" />
-    <state width="1636" height="329" key="GridCell.Tab.0.bottom" timestamp="1599743108978">
-      <screen x="0" y="23" width="1920" height="1135" />
+    <state width="1876" height="384" key="GridCell.Tab.0.bottom" timestamp="1599754527789">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1636" height="329" key="GridCell.Tab.0.bottom/0.23.1920.1135@0.23.1920.1135" timestamp="1599743108978" />
-    <state width="1636" height="329" key="GridCell.Tab.0.center" timestamp="1599743108977">
-      <screen x="0" y="23" width="1920" height="1135" />
+    <state width="1876" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1599754527789" />
+    <state width="1636" height="340" key="GridCell.Tab.0.bottom/0.23.1920.1135@0.23.1920.1135" timestamp="1599743589991" />
+    <state width="1876" height="384" key="GridCell.Tab.0.center" timestamp="1599754527788">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1636" height="329" key="GridCell.Tab.0.center/0.23.1920.1135@0.23.1920.1135" timestamp="1599743108977" />
-    <state width="1636" height="329" key="GridCell.Tab.0.left" timestamp="1599743108977">
-      <screen x="0" y="23" width="1920" height="1135" />
+    <state width="1876" height="384" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1599754527788" />
+    <state width="1636" height="340" key="GridCell.Tab.0.center/0.23.1920.1135@0.23.1920.1135" timestamp="1599743589990" />
+    <state width="1876" height="384" key="GridCell.Tab.0.left" timestamp="1599754527787">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1636" height="329" key="GridCell.Tab.0.left/0.23.1920.1135@0.23.1920.1135" timestamp="1599743108977" />
-    <state width="1636" height="340" key="GridCell.Tab.0.right" timestamp="1599743219627">
-      <screen x="0" y="23" width="1920" height="1135" />
+    <state width="1876" height="384" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1599754527787" />
+    <state width="1636" height="340" key="GridCell.Tab.0.left/0.23.1920.1135@0.23.1920.1135" timestamp="1599743589989" />
+    <state width="1876" height="384" key="GridCell.Tab.0.right" timestamp="1599754527912">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1636" height="340" key="GridCell.Tab.0.right/0.23.1920.1135@0.23.1920.1135" timestamp="1599743219627" />
+    <state width="1876" height="384" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1599754527912" />
+    <state width="1636" height="340" key="GridCell.Tab.0.right/0.23.1920.1135@0.23.1920.1135" timestamp="1599743589991" />
+    <state x="461" y="239" key="SettingsEditor" timestamp="1599754828883">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1599754828883" />
+    <state x="625" y="271" key="search.everywhere.popup" timestamp="1599753151891">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="625" y="271" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1599753151891" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -425,6 +439,16 @@
           <url>file://$PROJECT_DIR$/src/easy/FindEvenNumber.java</url>
           <line>29</line>
           <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/CountGoodTriples.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/CountGoodTriples.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/easy/RangeSumBST.java</url>
