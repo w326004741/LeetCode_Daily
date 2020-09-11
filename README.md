@@ -23,6 +23,7 @@
 #### 1221. [Split a String in Balanced Strings](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/BalancedStringSplit.java)
 #### 1295. [Find Number with Even Number of Digits](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/FindEvenNumber.java)
 #### 1534. [Count Good Triplets](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/CountGoodTriples.java)
+#### 1527. [Matrix Diagonal Sum](https://github.com/w326004741/LeetCode_Daily/blob/master/src/easy/MaxtrixDiagonalSum.java)
 
 
 
