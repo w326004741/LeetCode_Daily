@@ -6,15 +6,15 @@ import java.util.Stack;
 /**
  * @author Weichen Wang
  * @date 2020/2/17 - 3:05 PM
- *
+ * <p>
  * Question #20 :
  * Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
  * An input string is valid if:
- *        1. Open brackets must be closed by the same type of brackets.
- *        2. Open brackets must be closed in the correct order.
- *
+ * 1. Open brackets must be closed by the same type of brackets.
+ * 2. Open brackets must be closed in the correct order.
+ * <p>
  * Algorithm:
- *
+ * <p>
  * 1.Initialize a stack S.
  * 2. Process each bracket of the expression one at a time.
  * 3. If we encounter an opening bracket, we simply push it onto the stack. This means we will process it later, let us simply move onto the sub-expression ahead.
@@ -28,46 +28,38 @@ import java.util.Stack;
  */
 public class Valid_Parentheses {
 
-    private HashMap<Character, Character> mapping;
-
-    // Initialize HashMap with mapping. This simply makes the code easier to read.
-    public Valid_Parentheses() {
-        this.mapping = new HashMap<Character, Character>();
-        this.mapping.put(')', '('); //  key-value closing bracket is key, opening bracket is value
-        this.mapping.put(']', '['); // 通过关闭括号为key 找到对应的 开口括号value
-        this.mapping.put('}', '{');
-    }
-
     public boolean isValid(String s) {
-        // Initialize a stack to be used in the algorithm
-        Stack<Character> stack = new Stack<Character>();
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
+        // 先把String存在Stack，String转char[], 再判断
+        // 遍历char[],
+        if (s.isEmpty()) {
+            return true;
+        }
 
-            // if the current character is a closing bracket.
-            // containsKey():是检查key的存在 如果这个key存在在mapping种，则继续，如果c不是key，则push到stack中，因为是开口括号，即value
-            if (this.mapping.containsKey(c)) {
-                // 如果stack为空，则set为# as a dummy假 value， 反之不为空，则pop
-                char topElement = stack.empty() ? '#' : stack.pop();
-                // if the mapping for this bracket doesn't match the stack's top element, return false.
-                // 如果top的元素不能和mapping.get()的当前值匹配，则首尾不匹配，返回false;
-                if (topElement != this.mapping.get(c))
-                    return false;
-            } else {
-                // if it was an opening bracket, push to the stack  如果c不是key，则push到stack中，因为是开口括号，即value
-                stack.push(c);
+        Stack<Character> stack = new Stack<>();
+        char[] c = s.toCharArray();
+
+        for (char x : c) {
+            if (x == '(') {
+                stack.push(')');
+            } else if (x == '{') {
+                stack.push('}');
+            } else if (x == '[') {
+                stack.push(']');
+            } else if (stack.empty() || x != stack.pop()) {
+                // if stack为空 or 遍历的x不等于 stack.pop出的元素
+                return false;
             }
         }
-        // if the stack still contains elements, then it is an invalid expression.
-        return stack.isEmpty();
+        if (stack.empty()) {
+            return true;
+        }
+        return false;
     }
-
 
     public static void main(String[] args) {
         String s = "(){}[]";
-
+//        String s = "([)]";
         Valid_Parentheses vp = new Valid_Parentheses();
         System.out.println(vp.isValid(s));
-
     }
 }

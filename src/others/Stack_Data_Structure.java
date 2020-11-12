@@ -28,7 +28,7 @@ public class Stack_Data_Structure {
     public static void stack_Pop(java.util.Stack<Integer> stack) {
         System.out.println("Stack_Data_Structure Pop: ");
         for (int i = 0; i < 5; i++) {
-            Integer y = (Integer) stack.pop();
+            stack.pop();
             System.out.println(stack);
         }
     }
@@ -50,7 +50,6 @@ public class Stack_Data_Structure {
      */
     public static void stack_Search(java.util.Stack<Integer> stack, int element) {
         Integer pos = (Integer) stack.search(element);
-
         if (pos == -1) {
             System.out.println("Element not found");
         } else {

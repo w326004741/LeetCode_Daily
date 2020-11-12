@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="adbde74b-fca1-462a-acf1-6b7a8cb80777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/MaxtrixDiagonalSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/SumOddLengthSubarrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/Contain_Duplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/Maximum_Subarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/MergeTwoSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/Remove_Duplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/Remove_Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/Reverse_Integer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/Valid_Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/Valid_Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Week1/isPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/MaxtrixDiagonalSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/MaxtrixDiagonalSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/Two_Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/Valid_Parentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode_Daily/Easy/Valid_Parentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode_Daily/Others/Stack_Data_Structure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode_Daily/Others/Stack_Data_Structure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/MaxtrixDiagonalSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/MaxtrixDiagonalSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/Two_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/Week1/Two_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/Valid_Parentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/Valid_Parentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/others/Stack_Data_Structure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/others/Stack_Data_Structure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,26 +67,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1h0E5rNUmDgpCEaQXoki7z4uBG1" />
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Control flow issuesJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>ConditionalExpression</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="flattenPackages" value="true" />
@@ -66,23 +83,26 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="easy.Week1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Algorithms/A_Star" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxtrixDiagonalSum">
-    <configuration name="CountGoodTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.CountGoodTriples" />
+  <component name="RunManager" selected="Application.Remove_Element">
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Week1.LongestCommonPrefix" />
       <module name="LeetCode_Daily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="easy.Week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateTargetArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.CreateTargetArray" />
+    <configuration name="Remove_Duplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Week1.Remove_Duplicates" />
       <module name="LeetCode_Daily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="easy.Week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindEvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.FindEvenNumber" />
+    <configuration name="Remove_Element" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Week1.Remove_Element" />
       <module name="LeetCode_Daily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="easy.Week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxtrixDiagonalSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.MaxtrixDiagonalSum" />
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Week1.RomanToInteger" />
       <module name="LeetCode_Daily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="easy.Week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.ReverseStringII" />
+    <configuration name="isPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Week1.isPalindrome" />
       <module name="LeetCode_Daily" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="easy.Week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,31 +162,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CreateTargetArray" />
-      <item itemvalue="Application.ReverseStringII" />
-      <item itemvalue="Application.FindEvenNumber" />
-      <item itemvalue="Application.CountGoodTriples" />
-      <item itemvalue="Application.MaxtrixDiagonalSum" />
+      <item itemvalue="Application.isPalindrome" />
+      <item itemvalue="Application.RomanToInteger" />
+      <item itemvalue="Application.LongestCommonPrefix" />
+      <item itemvalue="Application.Remove_Duplicates" />
+      <item itemvalue="Application.Remove_Element" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxtrixDiagonalSum" />
-        <item itemvalue="Application.CountGoodTriples" />
-        <item itemvalue="Application.FindEvenNumber" />
-        <item itemvalue="Application.ReverseStringII" />
-        <item itemvalue="Application.CreateTargetArray" />
+        <item itemvalue="Application.Remove_Element" />
+        <item itemvalue="Application.Remove_Duplicates" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.RomanToInteger" />
+        <item itemvalue="Application.isPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -215,79 +237,122 @@
       <workItem from="1599051550210" duration="1327000" />
       <workItem from="1599139435985" duration="660000" />
       <workItem from="1599728210375" duration="4972000" />
-      <workItem from="1599755260800" duration="3210000" />
+      <workItem from="1599755260800" duration="5223000" />
+      <workItem from="1599905818244" duration="899000" />
+      <workItem from="1602580440848" duration="3407000" />
+      <workItem from="1603640325992" duration="20000" />
+      <workItem from="1604156728952" duration="19187000" />
+      <workItem from="1604408551550" duration="30671000" />
+      <workItem from="1604847998451" duration="3008000" />
+      <workItem from="1605010521481" duration="6885000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="594" y="1356" key="#Inspections" timestamp="1604692049749">
+      <screen x="0" y="1103" width="1920" height="1135" />
+    </state>
+    <state x="594" y="1356" key="#Inspections/0.1103.1920.1135/0.23.1920.1057@0.1103.1920.1135" timestamp="1604692049749" />
     <state x="1120" y="328" width="800" height="717" key="#Intentions" timestamp="1599140510337">
       <screen x="0" y="23" width="1920" height="1135" />
     </state>
     <state x="1120" y="328" width="800" height="717" key="#Intentions/0.23.1920.1135@0.23.1920.1135" timestamp="1599140510337" />
-    <state width="1876" height="352" key="GridCell.Tab.0.bottom" timestamp="1599835264710">
-      <screen x="0" y="23" width="1920" height="1135" />
+    <state x="-1123" y="126" key="#Project_Structure" timestamp="1604156848321">
+      <screen x="-1920" y="23" width="1920" height="1177" />
     </state>
+    <state x="-1123" y="126" key="#Project_Structure/-1920.23.1920.1177/0.23.1920.1015@-1920.23.1920.1177" timestamp="1604156848321" />
+    <state x="797" y="112" key="#Project_Structure/0.23.1920.1017@0.23.1920.1017" timestamp="1602580457427" />
+    <state x="-1131" y="363" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604408482634">
+      <screen x="-1920" y="23" width="1920" height="1177" />
+    </state>
+    <state x="-1131" y="363" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.23.1920.1177/0.23.1920.1015@-1920.23.1920.1177" timestamp="1604408482634" />
+    <state width="1876" height="258" key="GridCell.Tab.0.bottom" timestamp="1605113646579">
+      <screen x="0" y="1103" width="1920" height="1135" />
+    </state>
+    <state width="1636" height="258" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/-864.1103.1680.985/0.23.1920.1057@-864.1103.1680.985" timestamp="1605099395808" />
+    <state width="1333" height="307" key="GridCell.Tab.0.bottom/-1920.23.1920.1135/0.23.1920.1057@-1920.23.1920.1135" timestamp="1604418058744" />
+    <state width="1333" height="162" key="GridCell.Tab.0.bottom/-1920.23.1920.1177/0.23.1920.1015@-1920.23.1920.1177" timestamp="1604408490253" />
     <state width="1876" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1599754527789" />
-    <state width="1876" height="352" key="GridCell.Tab.0.bottom/0.23.1920.1135@0.23.1920.1135" timestamp="1599835264710" />
-    <state width="1876" height="352" key="GridCell.Tab.0.center" timestamp="1599835264709">
-      <screen x="0" y="23" width="1920" height="1135" />
+    <state width="1876" height="258" key="GridCell.Tab.0.bottom/0.1103.1920.1135/0.23.1920.1057@0.1103.1920.1135" timestamp="1605113646579" />
+    <state width="1176" height="308" key="GridCell.Tab.0.bottom/0.23.1920.1017@0.23.1920.1017" timestamp="1602582866799" />
+    <state width="1333" height="307" key="GridCell.Tab.0.bottom/0.23.1920.1135@0.23.1920.1135" timestamp="1604490005308" />
+    <state width="1178" height="213" key="GridCell.Tab.0.bottom/1920.-18.1920.1135/0.23.1920.1057@0.23.1920.1057" timestamp="1600106200152" />
+    <state width="1876" height="258" key="GridCell.Tab.0.center" timestamp="1605113646578">
+      <screen x="0" y="1103" width="1920" height="1135" />
     </state>
+    <state width="1636" height="258" key="GridCell.Tab.0.center/-1920.23.1920.1057/-864.1103.1680.985/0.23.1920.1057@-864.1103.1680.985" timestamp="1605099395806" />
+    <state width="1333" height="307" key="GridCell.Tab.0.center/-1920.23.1920.1135/0.23.1920.1057@-1920.23.1920.1135" timestamp="1604418058743" />
+    <state width="1333" height="162" key="GridCell.Tab.0.center/-1920.23.1920.1177/0.23.1920.1015@-1920.23.1920.1177" timestamp="1604408490251" />
     <state width="1876" height="384" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1599754527788" />
-    <state width="1876" height="352" key="GridCell.Tab.0.center/0.23.1920.1135@0.23.1920.1135" timestamp="1599835264709" />
-    <state width="1876" height="352" key="GridCell.Tab.0.left" timestamp="1599835264708">
-      <screen x="0" y="23" width="1920" height="1135" />
+    <state width="1876" height="258" key="GridCell.Tab.0.center/0.1103.1920.1135/0.23.1920.1057@0.1103.1920.1135" timestamp="1605113646578" />
+    <state width="1176" height="308" key="GridCell.Tab.0.center/0.23.1920.1017@0.23.1920.1017" timestamp="1602582866798" />
+    <state width="1333" height="307" key="GridCell.Tab.0.center/0.23.1920.1135@0.23.1920.1135" timestamp="1604490005307" />
+    <state width="1178" height="213" key="GridCell.Tab.0.center/1920.-18.1920.1135/0.23.1920.1057@0.23.1920.1057" timestamp="1600106200151" />
+    <state width="1876" height="258" key="GridCell.Tab.0.left" timestamp="1605113646578">
+      <screen x="0" y="1103" width="1920" height="1135" />
     </state>
+    <state width="1636" height="258" key="GridCell.Tab.0.left/-1920.23.1920.1057/-864.1103.1680.985/0.23.1920.1057@-864.1103.1680.985" timestamp="1605099395805" />
+    <state width="1333" height="307" key="GridCell.Tab.0.left/-1920.23.1920.1135/0.23.1920.1057@-1920.23.1920.1135" timestamp="1604418058742" />
+    <state width="1333" height="162" key="GridCell.Tab.0.left/-1920.23.1920.1177/0.23.1920.1015@-1920.23.1920.1177" timestamp="1604408490251" />
     <state width="1876" height="384" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1599754527787" />
-    <state width="1876" height="352" key="GridCell.Tab.0.left/0.23.1920.1135@0.23.1920.1135" timestamp="1599835264708" />
-    <state width="1876" height="352" key="GridCell.Tab.0.right" timestamp="1599835264860">
-      <screen x="0" y="23" width="1920" height="1135" />
+    <state width="1876" height="258" key="GridCell.Tab.0.left/0.1103.1920.1135/0.23.1920.1057@0.1103.1920.1135" timestamp="1605113646578" />
+    <state width="1176" height="308" key="GridCell.Tab.0.left/0.23.1920.1017@0.23.1920.1017" timestamp="1602582866798" />
+    <state width="1333" height="307" key="GridCell.Tab.0.left/0.23.1920.1135@0.23.1920.1135" timestamp="1604490005307" />
+    <state width="1178" height="213" key="GridCell.Tab.0.left/1920.-18.1920.1135/0.23.1920.1057@0.23.1920.1057" timestamp="1600106200150" />
+    <state width="1876" height="258" key="GridCell.Tab.0.right" timestamp="1605113646578">
+      <screen x="0" y="1103" width="1920" height="1135" />
     </state>
+    <state width="1636" height="258" key="GridCell.Tab.0.right/-1920.23.1920.1057/-864.1103.1680.985/0.23.1920.1057@-864.1103.1680.985" timestamp="1605099395939" />
+    <state width="1333" height="307" key="GridCell.Tab.0.right/-1920.23.1920.1135/0.23.1920.1057@-1920.23.1920.1135" timestamp="1604418058743" />
+    <state width="1333" height="162" key="GridCell.Tab.0.right/-1920.23.1920.1177/0.23.1920.1015@-1920.23.1920.1177" timestamp="1604408490252" />
     <state width="1876" height="384" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1599754527912" />
-    <state width="1876" height="352" key="GridCell.Tab.0.right/0.23.1920.1135@0.23.1920.1135" timestamp="1599835264860" />
-    <state x="461" y="239" key="SettingsEditor" timestamp="1599754828883">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1876" height="258" key="GridCell.Tab.0.right/0.1103.1920.1135/0.23.1920.1057@0.1103.1920.1135" timestamp="1605113646578" />
+    <state width="1176" height="308" key="GridCell.Tab.0.right/0.23.1920.1017@0.23.1920.1017" timestamp="1602582866799" />
+    <state width="1333" height="307" key="GridCell.Tab.0.right/0.23.1920.1135@0.23.1920.1135" timestamp="1604490005308" />
+    <state width="1178" height="213" key="GridCell.Tab.0.right/1920.-18.1920.1135/0.23.1920.1057@0.23.1920.1057" timestamp="1600106200152" />
+    <state x="461" y="1329" key="SettingsEditor" timestamp="1604848238265">
+      <screen x="0" y="1103" width="1920" height="1135" />
     </state>
     <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1599754828883" />
-    <state x="625" y="271" key="search.everywhere.popup" timestamp="1599753151891">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="461" y="1329" key="SettingsEditor/0.1103.1920.1135/0.23.1920.1057@0.1103.1920.1135" timestamp="1604848238265" />
+    <state x="690" y="1409" width="540" height="524" key="StructurePopup" timestamp="1604748871121">
+      <screen x="0" y="1103" width="1920" height="1135" />
     </state>
+    <state x="690" y="1409" width="540" height="524" key="StructurePopup/0.1103.1920.1135/0.23.1920.1057@0.1103.1920.1135" timestamp="1604748871121" />
+    <state x="334" y="1293" key="new project wizard" timestamp="1604754481203">
+      <screen x="0" y="1103" width="1920" height="1135" />
+    </state>
+    <state x="334" y="1293" key="new project wizard/0.1103.1920.1135/0.23.1920.1057@0.1103.1920.1135" timestamp="1604754481203" />
+    <state x="625" y="1360" width="670" height="756" key="search.everywhere.popup" timestamp="1604696992573">
+      <screen x="0" y="1103" width="1920" height="1135" />
+    </state>
+    <state x="-1295" y="289" width="670" height="783" key="search.everywhere.popup/-1920.23.1920.1177/0.23.1920.1015@-1920.23.1920.1177" timestamp="1604159184008" />
     <state x="625" y="271" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1599753151891" />
+    <state x="625" y="1360" width="670" height="756" key="search.everywhere.popup/0.1103.1920.1135/0.23.1920.1057@0.1103.1920.1135" timestamp="1604696992573" />
+    <state x="625" y="253" width="670" height="676" key="search.everywhere.popup/0.23.1920.1017@0.23.1920.1017" timestamp="1602582234329" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/easy/Valid_Parentheses.java</url>
-          <line>44</line>
+          <line>56</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Valid_Parentheses.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Valid_Parentheses.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Valid_Parentheses.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Valid_Parentheses.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/easy/Valid_Parentheses.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/easy/RunningSum.java</url>
@@ -449,6 +514,116 @@
           <line>28</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/MaxProfit.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/MaxProfit.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Valid_Anagram.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Valid_Parentheses.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Maximum_Subarray.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Reverse_Integer.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Reverse_Integer.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Reverse_Integer.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/isPalindrome.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/RomanToInteger.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/LongestCommonPrefix.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Duplicates.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Duplicates.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Duplicates.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Duplicates.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Element.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Element.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Element.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Element.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Element.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Element.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/easy/Week1/Remove_Element.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/easy/RangeSumBST.java</url>
           <line>27</line>
@@ -459,55 +634,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

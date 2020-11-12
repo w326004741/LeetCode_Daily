@@ -1,4 +1,4 @@
-package easy;
+package easy.Week1;
 
 /**
  * @author Weichen Wang
@@ -19,29 +19,37 @@ package easy;
  */
 public class Two_Sum {
     public static int[] twoSum(int[] nums, int target) {
-        for (int left = 0; left < nums.length; left++) {
-            for (int right = left + 1; right < nums.length; right++) {
-                if (nums[right] == target - nums[left]) {
-                    return new int[]{left, right};
+
+        // 解题思路：
+        // target = nums[x] + nums[y]
+        // 要遍历数组，y=x+1
+        // if target == nums[x] + nums[y] -> return [x,y] 数组
+
+        for (int x = 0; x < nums.length; x++) {
+            for (int y = x + 1; y < nums.length; y++) {
+                if (target == nums[x] + nums[y]) {
+                    return new int[]{x, y};
                 }
             }
         }
+//        for (int left = 0; left < nums.length; left++) {
+//            for (int right = left + 1; right < nums.length; right++) {
+//                if (nums[right] == target - nums[left]) {
+//                    return new int[]{left, right};
+//                }
+//            }
+//        }
         throw new IllegalArgumentException("No two sum solution");
-//        return nums;
     }
 
     public static void main(String[] args) {
-//        int[] nums = {2, 7, 11, 15};
-//        int target = 9;
-
-        int[] nums = {3, 2, 4};
-        int target = 6;
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
 
         int[] result = twoSum(nums, target);
 
         for (Integer i : result) {
-            System.out.println(i);
+            System.out.print(i + ", ");
         }
-//        System.out.println(Arrays.toString(result));
     }
 }

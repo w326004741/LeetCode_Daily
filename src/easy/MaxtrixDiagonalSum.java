@@ -29,7 +29,7 @@ public class MaxtrixDiagonalSum {
             sum += mat[i][i] + mat[i][len - 1 - i];
         }
         if (len % 2 != 0) {
-            // 因为要求不能算两次相同的位置数值，所以要单独进行判断
+            // 因为要求不能算两次相同的位置数值，所以要单独进行判断=kl m,
             // 如果数组长度为奇数，则sum减去重复的中心元素。即 mat[len/2][len/2]=5
             sum -= mat[len / 2][len / 2];
         }
